@@ -1,11 +1,11 @@
 
 import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
-
+import Logo from '../images/LOGO.png';
 export default function Home() {
   return (
     <div className="bg-purple-700 min-h-screen flex justify-center items-center">
       <div className="bg-white rounded-lg p-8 max-w-sm w-full">
-      <img src="logo.png" alt="Logo de la aplicación" className="w-20 h-auto mx-auto my-4" /> 
+      <img src={Logo} alt="Logo de la aplicación" className="w-20 h-auto mx-auto my-4" /> 
         <h2 className="text-xl font-bold mb-4 text-center">Introduce tu número de teléfono</h2>
         <div className="flex items-center justify-center">
           <img src="/bandera-colombia.png" alt="Colombia Flag" className="h-10 ml-2" />
