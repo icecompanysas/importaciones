@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Footer from './Footer';
 
-export default function Servicio() {
+export default function MaquinasSelladoras() {
   const [selectedIcon, setSelectedIcon] = useState('');
 
   return (
