@@ -1,3 +1,4 @@
+import { useState } from 'react';
 
 import Footer from './Footer';
 

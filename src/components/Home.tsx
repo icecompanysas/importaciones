@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 
-export default function LoginUser() {
+export default function Home() {
   return (
     <div className="bg-purple-700 min-h-screen flex justify-center items-center">
       <div className="bg-white rounded-lg p-8 max-w-sm w-full">
