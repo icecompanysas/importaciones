@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import LoginUser from './components/LoginUser';
 import Validacion from './components/Validacion';
 import Registro from './components/Registro';
