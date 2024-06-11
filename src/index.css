@@ -8,3 +8,6 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+.link {
+    @apply font-bold block p-5 hover:text-emerald-500
+}
