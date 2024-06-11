@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 
 export default function LoginUser() {
