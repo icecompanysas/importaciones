@@ -1,9 +1,11 @@
 
-import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
+import { Link } from 'react-router-dom'; 
+import Logo from "../images/logo.png";// Importa Link desde react-router-dom
 
-export default function LoginUser() {
+export default function Home() {
   return (
-    <div className="bg-purple-700 min-h-screen flex justify-center items-center">
+    <div className="bg-gray-200 ">
+       <img src={Logo} alt="Icon Logo" className="h-24 w-48" />
       <div className="bg-white rounded-lg p-8 max-w-sm w-full">
       <img src="logo.png" alt="Logo de la aplicación" className="w-20 h-auto mx-auto my-4" /> 
         <h2 className="text-xl font-bold mb-4 text-center">Introduce tu número de teléfono</h2>
