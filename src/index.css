@@ -9,5 +9,5 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .link {
-    @apply font-bold block p-5 hover:text-emerald-500
+    @apply font-bold block p-2 hover:text-emerald-500
 }
